@@ -5,7 +5,7 @@ public class Premier {
 	
 	public boolean isPremier(int n) {
 		boolean isPremier = true; 
-		if (n < 0) {
+		if (n < 2) {
 			isPremier = false; 
 			}
 		else if (n != 0 && n != 1){
